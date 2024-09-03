@@ -1,0 +1,39 @@
+/* Aka ga STAR gakuramo default margin ya browser */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 500px;
+    height: 100px;
+    border: 1px solid red;
+}
+.grandparent{
+    height: 400px;
+    width: 400px;
+    /* margin-left: 100px;  ubu tubwiye umwana ngo igirayo */
+    /* margin-top: 100px;  ubu tubwiye umwana ngo igirayo */
+    background-color: aquamarine;
+    border:2px solid rgb(35, 129, 66);
+
+}
+.parent{
+    height: 200px;
+    width: 200px;
+    background-color: darkslategray;
+    margin-top: 50px;  /*ubu tubwiye umwana ngo igirayo*/
+    margin-left: 50px;  /*ubu tubwiye umwana ngo igirayo*/
+    border:2px solid black;
+
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    margin-left: 50px;  /*ubu tubwiye umwana ngo igirayo*/
+    margin-top: 50px;  /*ubu tubwiye umwana ngo igirayo*/
+    border:2px solid rgb(150, 34, 34);  
+}

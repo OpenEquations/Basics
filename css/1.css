@@ -1,0 +1,31 @@
+.container{
+    background-color: cyan;
+    display: flex;
+    max-width: 1500px;
+    border: 3px solid purple;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    min-width: 150px;
+    flex:1;
+}
+
+.box1{
+    background-color:red ;
+    /* flex-shrink: 5; */
+}
+.box2{
+    background-color: blue;
+    /* flex-shrink: 1; */
+}
+.box3{
+    background-color: green;
+    
+}
+.box4{
+    background-color: yellow;
+    /* flex-grow: 1; */
+}

@@ -1,0 +1,27 @@
+.container{
+    background-color: cyan;
+    display: flex;
+    max-width: 1000px;
+    border: 3px solid purple;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+}
+
+.box1{
+    background-color:red ;
+    flex-shrink: 5;
+}
+.box2{
+    background-color: blue;
+    /* flex-shrink: 1; */
+}
+.box3{
+    background-color: green;
+    
+}
+.box4{
+    background-color: yellow;
+}

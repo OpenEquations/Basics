@@ -1,0 +1,51 @@
+/* static
+relative
+absolute
+
+sticky
+fixed */
+
+/* position */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; */
+    /* display: inline-block; */
+}
+
+.box1{
+    background-color: red;
+    position: absolute;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    top:0;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: yellow;
+}
+.box5{
+    background-color: cyan;
+}
+
+
+ul{
+
+}
+
+li{
+    display: inline;
+}

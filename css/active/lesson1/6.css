@@ -1,0 +1,60 @@
+body{
+    border: 5px solid red;
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+   
+}
+
+.box{
+    position: absolute;
+}
+
+.box1{
+    background-color: red;
+    /* z-index: 1 ; */
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    
+ 
+}
+.box2{
+    background-color: green;
+    bottom: 0;
+    right: 0;
+}
+.box3{
+    background-color: blue;
+    /* z-index: 2; */
+    bottom: 0;
+    left: 0;
+
+}
+.box4{
+    background-color: yellow;
+    right: 0;
+}
+
+.box5{
+    background-color: cyan;
+    left: 0;
+    top: 0;
+}
+
+.container2{
+    border: 3px solid cyan;
+    height: 600px;
+    width: 800px;
+    /* position: relative; */
+}
+
+.container{
+    height: 400px;
+    width: 600px;
+    border: 2px solid green;
+    /* position: relative; */
+}
